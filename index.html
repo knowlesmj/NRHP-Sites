@@ -219,7 +219,7 @@ opacity: 0.7;
 
 
       //3.4 Add the states GeoJSON layer to the map
-      geojson = L.geoJson.ajax("assets/NRHP.geojson", {
+      geojson = L.geoJson.ajax("NRHP.geojson", {
           style: style,
           onEachFeature: onEachFeature
       }).addTo(map);
